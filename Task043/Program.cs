@@ -22,10 +22,8 @@ double d = Convert.ToDouble(Console.ReadLine());
 
 void IntersectionPoint()
 {
-    double x = 0;
-    double y = 0;
-    x = (c - a) / (b - d);
-    y = (b * c - d * a) / (b - d);
+    double x = (c - a) / (b - d);
+    double y = (b * c - d * a) / (b - d);
     Console.Write($"({Math.Round(x, 1)}; {Math.Round(y, 1)})");
 }
 
