@@ -36,7 +36,6 @@ void PrintMatrix(int[,] matrix)
 }
 
 void ArithmeticMean(int[,] matrix)
-
 {
     double[] arithmeticsMean = new double[matrix.GetLength(1)];
     for (int i = 0; i < matrix.GetLength(1); i++)
