@@ -13,7 +13,7 @@ int n = Convert.ToInt32(Console.ReadLine());
 
 int SumNaturalElem(int num1, int num2, int currentNum, int sum)
 {
-    if (currentNum == num2) 
+    if (currentNum == num2)
     {
         return sum;
     }
@@ -24,7 +24,7 @@ int SumNaturalElem(int num1, int num2, int currentNum, int sum)
 if (m <= 0 || n <= 0)
 {
     Console.WriteLine("Введите натуральные числа!");
-return;
+    return;
 }
 
 int result = SumNaturalElem(m, n, m, m);
